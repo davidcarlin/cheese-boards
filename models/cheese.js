@@ -1,4 +1,5 @@
 const { Sequelize } = require("sequelize");
+const { sequelize } = require("../db");
 
 // create a User model
 const Cheese = sequelize.define("Cheese", {
@@ -6,4 +7,4 @@ const Cheese = sequelize.define("Cheese", {
   description: Sequelize.STRING,
 });
 
-module.exports = { User };
+module.exports = { Cheese };

@@ -1,5 +1,5 @@
-const { sequelize } = require("../db");
 const { Sequelize } = require("sequelize");
+const { sequelize } = require("../db");
 
 // create a User model
 const User = sequelize.define("User", {
